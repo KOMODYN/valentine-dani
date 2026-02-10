@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Para Dani ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <div id="screen-1" class="screen active">
+        <div class="glass-card">
+            <div class="terminal-loader">
+                <p>> Initializing love_protocol...</p>
+                <p>> Loading memories with Dani...</p>
+                <p>> Access Granted.</p>
+            </div>
+            <button id="start-btn" class="pulse-btn">Ingresar</button>
+        </div>
+    </div>
+
+    <div id="screen-2" class="screen hidden">
+        <div class="glass-card">
+            <h2>Tiempo juntos</h2>
+            <div id="timer" class="timer-display">
+                </div>
+            <p class="subtitle">Y cada segundo cuenta...</p>
+            <button id="next-btn" class="secondary-btn">Continuar</button>
+        </div>
+    </div>
+
+    <div id="screen-3" class="screen hidden">
+        <div class="glass-card">
+            <h1>Dani, <br>¿Quieres ser mi Valentine?</h1>
+            <p>Prometo más aventuras, risas y código juntos.</p>
+            <div class="buttons-container">
+                <button id="yes-btn">¡SÍ, CLARO!</button>
+                <button id="no-btn">No</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
